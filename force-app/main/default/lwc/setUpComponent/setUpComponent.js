@@ -5,7 +5,7 @@ export default class SetUpComponent extends LightningElement {
     const event = new ShowToastEvent({
         title: 'Get Help',
         message:
-            'Salesforce documentation is available ',
+            'Salesforce documentation is available ----',
     });
     this.dispatchEvent(event);
 }}
